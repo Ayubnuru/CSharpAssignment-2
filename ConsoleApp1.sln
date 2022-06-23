@@ -1,7 +1,5 @@
 ﻿
-
-
-Console.WriteLine("Enter your lower case letter.");
+ Console.WriteLine("Enter your lower case letter.");
 char letter = Convert.ToChar(Console.ReadLine());
 
 if (letter =='a' || letter == 'e'|| letter == 'i'|| letter=='o'|| letter == 'u')
