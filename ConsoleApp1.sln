@@ -1,37 +1,25 @@
 ﻿
- Console.WriteLine("Enter your lower case letter.");
-char letter = Convert.ToChar(Console.ReadLine());
-
-if (letter =='a' || letter == 'e'|| letter == 'i'|| letter=='o'|| letter == 'u')
-{
-    Console.WriteLine("It is a vowel.");
-}
-else
-{
-    Console.WriteLine("it is consonant");
-}
-Console.WriteLine("Do you want to continue?(y/n)");
-char answer =char.Parse(Console.ReadLine());
-if(answer == 'y');
-{
-
-    Console.WriteLine("Enter your lower case letter.");
-    letter = Convert.ToChar(Console.ReadLine());
-
-    if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
-    {
-        Console.WriteLine("It is a vowel.");
-    }
-    else
-    {
-        Console.WriteLine("it is consonant");
-    }
-    Console.WriteLine("Do you want to continue?(y/n)");
-    answer = char.Parse(Console.ReadLine());
-} 
-
-if(answer == 'n')
-{
-
-    Console.WriteLine("Thank you for using!!!!!");
-}
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{E45AC3B1-8C0E-475D-9680-CC881FD8D8FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E45AC3B1-8C0E-475D-9680-CC881FD8D8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45AC3B1-8C0E-475D-9680-CC881FD8D8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45AC3B1-8C0E-475D-9680-CC881FD8D8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45AC3B1-8C0E-475D-9680-CC881FD8D8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E8A3007-A8F3-4C84-AF75-31088EA86DF6}
+	EndGlobalSection
+EndGlobal
