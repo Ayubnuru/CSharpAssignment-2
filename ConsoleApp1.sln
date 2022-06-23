@@ -3,7 +3,7 @@
 Console.WriteLine("Enter your lower case letter.");
 char letter = Convert.ToChar(Console.ReadLine());
 
-if (letter =='a' || letter == 'e'|| letter == 'e'|| letter=='o'|| letter == 'u')
+if (letter =='a' || letter == 'e'|| letter == 'i'|| letter=='o'|| letter == 'u')
 {
     Console.WriteLine("It is a vowel.");
 }
